@@ -192,40 +192,6 @@ body {
   text-align: center;
 }
 
-.music-section {
-  text-align: center;
-}
-
-.music-btn {
-  font-family: var(--font-body);
-  font-size: clamp(1rem, 2vw, 1.1rem);
-  font-weight: 500;
-  padding: 1rem 2rem;
-  border: 2px solid rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.15);
-  color: var(--color-soft-white);
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-}
-
-.music-btn:hover {
-  background: rgba(255, 255, 255, 0.25);
-  border-color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.03);
-  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.2);
-}
-
-.music-btn:active {
-  transform: scale(0.98);
-}
-
-.music-btn.hidden {
-  display: none;
-}
-
 .footer {
   text-align: center;
   padding: 2rem 1.5rem;

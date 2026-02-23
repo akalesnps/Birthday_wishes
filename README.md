@@ -1,11 +1,10 @@
 # Sweet Friend Birthday Website
 
-A beautiful, elegant birthday website with a sweet friendship theme, soft divine aesthetics, animated gradient background, peacock feather decorations, and optional Krishna flute music.
+A beautiful, elegant birthday website with a sweet friendship theme, soft divine aesthetics, animated gradient background, and peacock feather decorations.
 
 ## Quick Start (Local)
 
-1. **Add music (optional):** Download a royalty-free Krishna flute track from [Pixabay](https://pixabay.com/music/search/krishna%20flute/) and save it as `audio/flute.mp3`
-2. **Run locally:** Use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code/Cursor, or run:
+1. **Run locally:** Use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code/Cursor, or run:
    ```bash
    python -m http.server 5500
    ```
@@ -60,9 +59,7 @@ Simply copy the URL and share it with your friend!
 wbsite/
 ├── index.html      # Main page
 ├── style.css       # Styles and animations
-├── script.js       # Confetti and music
-├── audio/
-│   └── flute.mp3   # Add your Krishna flute track here
+├── script.js       # Confetti effect
 ├── .gitignore
 ├── netlify.toml
 └── README.md

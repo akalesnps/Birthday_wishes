@@ -64,37 +64,10 @@
     animate();
   }
 
-  // ===== Music Button =====
-  function initMusic() {
-    const btn = document.getElementById('music-btn');
-    const audio = document.getElementById('birthday-audio');
-
-    if (!btn || !audio) return;
-
-    btn.addEventListener('click', function () {
-      const playPromise = audio.play();
-      if (playPromise !== undefined) {
-        playPromise
-          .then(function () {
-            btn.classList.add('hidden');
-          })
-          .catch(function () {
-            console.warn('Could not play audio. Add flute.mp3 to the audio/ folder.');
-          });
-      } else {
-        btn.classList.add('hidden');
-      }
-    });
-  }
-
   // ===== Init =====
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () {
-      runConfetti();
-      initMusic();
-    });
+    document.addEventListener('DOMContentLoaded', runConfetti);
   } else {
     runConfetti();
-    initMusic();
   }
 })();
